@@ -3,23 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Fitnes</title>
+    <link rel="stylesheet" href="/css/stylefonts.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
     <div class="wrapper">
-        <header>
-          <img class="logo" src="img/logo.jpg" alt="My logo"/>
-        </header>
-          <div class="menu-gorizontal">
+        <header class="header">
+              <div class="logo">
+              <img src="img/logo.jpg" width="145px" alt="My logo"/></div>
+
+          <div class="main-menu">
                 <ul>
                   <li><a href="#">Главная</a></li>
                   <li><a href="#">Товари</a></li>
-                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">О_нас</a></li>
                   <li><a href="#">Контакти</a></li>
                 </ul>
           </div>
-         <div class="menu-vertical">
+        </header>
+
+    <main class="main">
+        <aside class="sidebar">
+          <div class="page-menu">
             <ul>
                   <li><a href="#">Ноутбуки</a></li>
                   <li><a href="#">Планшеты</a></li>
@@ -29,26 +36,35 @@
                   <li><a href="#">Автотовари</a></li>
             </ul>
           </div>
+        </aside>
+
+        <div class="content">
           <div class="photo-box">
-            <div><img src="img/photo1.jpg" alt="Велосипед" />
-            </div>
+            <div class="photo"><img src="img/photo1.jpg" width="500px" alt="Велосипед"/></div>
           </div>
+
           <div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-        <footer>
+        </div>
+      </main>
+
+
+
+        <footer class="footer">
             <div class="nav">
               <ul>
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Товары</a></li>
-                <li><a href="#">О нас</a></li>
+                <li><a href="#">О_нас</a></li>
                 <li><a href="#">Контакты</a></li>
-                <li class="author"><a href="#">2014 &copy; All rights reserved</a></li>
               </ul>
+              <div class="author">2014 &copy; All rights reserved</div>
             </div>
         </footer>
+
       </div>
     </body>
 </html>
