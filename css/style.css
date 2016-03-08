@@ -37,17 +37,23 @@ padding-bottom: 44px;
   overflow: hidden;
 }
 
+.main-menu ul {
+  padding-left: 7px;
+}
+
 .main-menu li {
   float: left;
-  padding-top: 12px;
-  padding-bottom: 12px;
   margin-right: 50px;
   width: 100px;
   text-align: center;
   border: 1px solid transparent;
+
 }
 
 .main-menu li a {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  display: block;
   text-decoration: none;
   color: #ffffff;
   text-shadow: 1px 0.5px 1px black;
@@ -98,15 +104,16 @@ padding-bottom: 44px;
   border: 1px solid #656363;
   width: 240px;
   margin: -1px;
-  padding-top: 11px;
-  padding-bottom: 12px;
+
 }
 
 .page-menu li a {
   text-decoration: none;
   color: #656363;
   padding-left: 25px;
-  display: table-cell;
+  display: block;
+  padding-top: 11px;
+  padding-bottom: 12px;
 }
 
 .page-menu li:hover {
