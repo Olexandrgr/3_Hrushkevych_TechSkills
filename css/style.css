@@ -29,7 +29,7 @@ padding-bottom: 44px;
 
 .main {
   margin-top: 40px;
-  height: 570px;
+  height: 600px;
 }
 
 .main-menu {
@@ -38,13 +38,14 @@ padding-bottom: 44px;
 }
 
 .main-menu ul {
-  padding-left: 7px;
+  /*padding-left: 7px;*/
+  height: 40px;
 }
 
 .main-menu li {
   float: left;
   margin-right: 50px;
-  width: 100px;
+  width: 114px;
   text-align: center;
   border: 1px solid transparent;
 
@@ -59,13 +60,21 @@ padding-bottom: 44px;
   text-shadow: 1px 0.5px 1px black;
 }
 
+
 .main-menu li:hover {
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  background-color: #3d3d3d;
+
+}
+
+.main-menu li:active {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
   background-color: #3d3d3d;
 }
 
-.main-menu li:active {
+.main-menu li:visited {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
   background-color: #3d3d3d;
@@ -123,6 +132,7 @@ padding-bottom: 44px;
 .page-menu li a:hover {
   color: #2c2c2c;
   padding-left: 40px;
+  background-color: #e2e2e2;
 }
 
 .page-menu li a:active {
@@ -134,6 +144,10 @@ padding-bottom: 44px;
   color: #blue;
 }
 
+.footer {
+  margin-top: 80px;
+}
+
 p {
   margin-top: 40px;
   margin-left: 25px;
@@ -143,22 +157,33 @@ p {
 
 .nav {
   clear: both;
-  padding: 15px;
+  height: 40px;
   background-color: #e1e1e1;
   margin-left: 45px;
   margin-right: 45px;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
   padding-left: 25px;
+}
+
+.nav ul {
+  height: 40px;
+  float: left;
+  background-color: #e1e1e1;
+
 }
 
 .nav li {
   float: left;
-  padding-right: 100px;
+  margin-right: 50px;
 }
 
 .nav li a {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  display: block;
   color: #2c2c2c;
   text-decoration: none;
+  width: 100px;
 }
 
 .nav li a:hover{
@@ -166,6 +191,8 @@ p {
 }
 
 .author {
+  padding-top: 12px;
+  padding-bottom: 10px;
   padding-left: 730px;
   color: #2c2c2c;
 }
