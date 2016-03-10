@@ -15,6 +15,7 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   padding-bottom: 60px;
 }
+
 .header {
   height: 170px;
   margin-left: 45px;
@@ -38,8 +39,9 @@ padding-bottom: 44px;
 }
 
 .main-menu ul {
-  /*padding-left: 7px;*/
-  height: 40px;
+  /*padding-left: 7px;
+  height: 40px;*/
+  overflow: hidden;
 }
 
 .main-menu .main-menu_button_active {
@@ -54,7 +56,6 @@ padding-bottom: 44px;
   width: 114px;
   text-align: center;
   border: 1px solid transparent;
-
 }
 
 .main-menu li a {
@@ -71,7 +72,6 @@ padding-bottom: 44px;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
   background-color: #3d3d3d;
-
 }
 
 .main-menu li:active {
@@ -110,11 +110,11 @@ padding-bottom: 44px;
 
 }
 
-.page-menu {
+.sidebar {
   float: left;
 }
 
-.page-menu li {
+.sidebar li {
   list-style: none;
   border: 1px solid #656363;
   width: 240px;
@@ -122,7 +122,7 @@ padding-bottom: 44px;
 
 }
 
-.page-menu li a {
+.sidebar li a {
   text-decoration: none;
   color: #656363;
   padding-left: 25px;
@@ -131,28 +131,28 @@ padding-bottom: 44px;
   padding-bottom: 12px;
 }
 
-.page-menu li:hover {
+.sidebar li:hover {
   background-color: #e2e2e2;
 }
 
-.page-menu li a:hover {
+.sidebar li a:hover {
   color: #2c2c2c;
   padding-left: 40px;
   background-color: #e2e2e2;
 }
 
-.page-menu li a:active {
+.sidebar li a:active {
   color: black;
   padding-left: 40px;
 }
 
-.page-menu .page-menu_botton_active a{
+.sidebar .sidebar_active a{
   color: #2c2c2c;
   padding-left: 40px;
   background-color: #e2e2e2;
 }
 
-.page-menu li a:visited {
+.sidebar li a:visited {
   color: #blue;
 }
 
@@ -167,7 +167,7 @@ p {
   padding-bottom: 65px;
 }
 
-.nav {
+.footer {
   clear: both;
   height: 40px;
   background-color: #e1e1e1;
@@ -177,19 +177,18 @@ p {
   padding-left: 25px;
 }
 
-.nav ul {
+.footer ul {
   height: 40px;
-  float: left;
   background-color: #e1e1e1;
 
 }
 
-.nav li {
+.footer li {
   float: left;
   margin-right: 50px;
 }
 
-.nav li a {
+.footer li a {
   padding-top: 12px;
   padding-bottom: 10px;
   display: block;
@@ -198,24 +197,26 @@ p {
   width: 100px;
 }
 
-.nav li a:hover {
+.footer li a:hover {
   text-decoration: underline;
 }
 
-.nav li a:active {
+.footer li a:active {
   text-decoration: underline;
 }
 
-.nav li a:visited {
+.footer li a:visited {
   text-color: gray;
 }
 
-.nav .nav_botton_active {
+ .nav_active {
   text-decoration: underline;
 }
 
 
 .author {
+  position: relative;
+  bottom: 40px;
   padding-top: 12px;
   padding-bottom: 10px;
   padding-left: 730px;
