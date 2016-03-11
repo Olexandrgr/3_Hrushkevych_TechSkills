@@ -39,8 +39,6 @@ padding-bottom: 44px;
 }
 
 .main-menu ul {
-  /*padding-left: 7px;
-  height: 40px;*/
   overflow: hidden;
 }
 
@@ -168,19 +166,16 @@ p {
 }
 
 .footer {
-  clear: both;
-  height: 40px;
   background-color: #e1e1e1;
   margin-left: 45px;
   margin-right: 45px;
-  /*margin-top: 80px;*/
-  padding-left: 25px;
+  /*overflow: hidden;*/
 }
 
 .footer ul {
-  height: 40px;
+  padding-left: 30px;
+  overflow: hidden;
   background-color: #e1e1e1;
-
 }
 
 .footer li {
@@ -189,8 +184,8 @@ p {
 }
 
 .footer li a {
-  padding-top: 12px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 13px;
   display: block;
   color: #2c2c2c;
   text-decoration: none;
@@ -215,10 +210,11 @@ p {
 
 
 .author {
-  position: relative;
-  bottom: 40px;
-  padding-top: 12px;
-  padding-bottom: 10px;
-  padding-left: 730px;
+  position: absolute;
+  left: 1005px;
+  top: 905px;
+  bottom: 300px;
   color: #2c2c2c;
+  /*padding-left: 730px;*/
+
 }
